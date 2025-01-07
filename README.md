@@ -6,9 +6,9 @@ Rename your files directly or with your favorite text editor, making use of all 
 
 ## About
 
-*Simplest File Renamer* was created by [Boris Yakubchik](https://videohubapp.com/en/about). It uses _Angular_ and _Electron_.
+**Simplest File Renamer** was created by [Boris Yakubchik](https://videohubapp.com/en/about). It uses _Angular_ and _Electron_.
 
-Works on *Windows*, *Mac*, and *Linux* :tada:
+Works on _Windows_, _Mac_, and _Linux_ :tada:
 
 ## Download
 
@@ -22,14 +22,14 @@ This software was built on top of [`angular-electron`](https://github.com/maxime
 
 Main dependencies in use:
 
-| Library          | Version   | Date           | Comment |
-| ---------------- | --------- | -------------- | ------- |
-| Angular          | v13.2.2   | Feb 2022       |         |
-| Angular-CLI      | v13.2.3   | Feb 2022       |         |
-| Electron         | v17.0.0   | Feb 2022       | (internally uses Node `v16.13.0` and Chromium 98) |
-| Electron Builder | v22.14.13 | Feb 2022       |         |
+| Library          | Version | Date           | Comment |
+| ---------------- | ------- | -------------- | ------- |
+| Angular          | v18     | Jun 2024       |         |
+| Angular-CLI      | v18     | Jun 2024       |         |
+| Electron         | v31     | Jun 2024       | (internally uses Node `v20.14.0` and Chromium 124) |
+| Electron Builder | v24     | Jun 2024       |         |
 
-Needs Node 14 or newer.
+Recommending Node 20 or newer.
 
 Once you install `node` and `npm` just `npm install` and `npm start` in your terminal to develop, `npm run electron` to build :wink:
 
@@ -37,10 +37,10 @@ Once you install `node` and `npm` just `npm install` and `npm start` in your ter
 
 This software would not be possible without the tremendous work by other people:
 
- - [Angular](https://github.com/angular/angular)
- - [Electron](https://github.com/electron/electron)
- - [angular-electron](https://github.com/maximegris/angular-electron)
- - [Quill](https://github.com/quilljs/quill)
- - [electron-builder](https://github.com/electron-userland/electron-builder)
+- [Angular](https://github.com/angular/angular)
+- [Electron](https://github.com/electron/electron)
+- [angular-electron](https://github.com/maximegris/angular-electron)
+- [Quill](https://github.com/quilljs/quill)
+- [electron-builder](https://github.com/electron-userland/electron-builder)
 
 A huge personal _thank you_ to [Percipient24](https://github.com/Percipient24) for always helping me when I ask for coding help, and for his [code](https://codepen.io/percipient24/pen/eEBOjG) that inspired this project 🙇‍♂️
